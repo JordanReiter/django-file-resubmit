@@ -155,6 +155,7 @@ class TestModel(models.Model):
     
     class Meta:
         abstract = True
+        app_label = 'file_resubmit_testing'
 
 
 class TestModelAdmin(ModelAdmin):
